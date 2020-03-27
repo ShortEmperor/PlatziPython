@@ -30,7 +30,7 @@ def main():
             exit()
 
     except ValueError:
-        print(f'Por favor selecciona un algoritmo!')
+        print(f'Por favor, introduce los valores requeridos!')
 
 repeat = 'N'
 if __name__=='__main__':
