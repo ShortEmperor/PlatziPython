@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 def Aprox(objetivo):
-    epsilon = 0.0001
+    epsilon = 0.001
     paso = epsilon**2
     respuesta = 0.0
 
@@ -37,6 +37,6 @@ def Enum(objetivo):
         answer += 1
         
     if answer**2 == objetivo:
-        print(f'Sqrt of {objetivo} is {answer}')
+        print(f'la raiz cuadrada de {objetivo} es {answer}')
     else:
-        print(f'{objetivo} doesn\'t have an exact sqrt')
+        print(f'{objetivo} no tiene raiz cuadrada exacta')
