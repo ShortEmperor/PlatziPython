@@ -18,7 +18,10 @@ def main():
 
         elif algoritmo == 3:
             alg.Aprox(objetivo)
-
+            
+        elif algoritmo >= 4:
+            print("Por favor escoge una opcion de algoritmo valido!")
+            
         else:
             alg.Binary(objetivo)
 
