@@ -9,9 +9,9 @@ def main():
 
         print('Algoritmos: \n1.-Busqueda Binaria\n2.-Enumeracion exhaustiva\n3.-Aproximacion de soluciones')
 
-        algoritmo = int(input('Que algoritmo quiere usar? \n>>'))
-
         objetivo = int(input("Escriba el numero del que desea obtener la raiz cuadrada: \n>>"))
+        
+        algoritmo = int(input('Que algoritmo quiere usar? \n>>'))
 
         if algoritmo == 2:
             alg.Enum(objetivo)
