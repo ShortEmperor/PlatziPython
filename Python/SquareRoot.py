@@ -5,7 +5,7 @@ import Algorithms as alg
 def main():
     os.system("clear")
     try:
-        print(f'Este programa retornara la raiz cudrada de algun numero \n Se puede elegir entre diferentes algoritmos para llevar a cabo la tarea')
+        print(f'Bienvenido \nEste programa retornara la raiz cudrada de algun numero \n Se puede elegir entre diferentes algoritmos para llevar a cabo la tarea')
 
         print('Algoritmos: \n1.-Busqueda Binaria\n2.-Enumeracion exhaustiva\n3.-Aproximacion de soluciones')
 
