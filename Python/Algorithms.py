@@ -20,7 +20,7 @@ def Binary(objetivo):
     respuesta = (alto + bajo)/ 2
 
     while abs(respuesta**2 - objetivo) >= epsilon:
-        #print(f'bajo={bajo}, alto={alto}, respuesta={respuesta}')
+
         if respuesta**2 < objetivo:
             bajo = respuesta
         else:
